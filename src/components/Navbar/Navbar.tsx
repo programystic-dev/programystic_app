@@ -1,6 +1,6 @@
 import React, { memo, useCallback, useEffect, useState } from "react";
 import { Link, LinkProps, animateScroll as scroll } from "react-scroll";
-import styled, { DefaultTheme } from "styled-components/macro";
+import styled, { DefaultTheme } from "styled-components";
 
 import { HiMenu } from "react-icons/hi";
 

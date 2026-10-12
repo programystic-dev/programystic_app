@@ -7,7 +7,7 @@ import {
   FaGithub,
   FaEnvelopeOpenText,
 } from "react-icons/fa";
-import styled from "styled-components/macro";
+import styled from "styled-components";
 
 import { Analytics } from "../../services";
 import { Section } from "../../components";

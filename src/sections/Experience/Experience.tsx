@@ -1,11 +1,9 @@
 import React, { memo } from "react";
-import { importMDX } from "mdx.macro";
-import styled from "styled-components/macro";
+import styled from "styled-components";
 
+import ExperienceContent from "./ExperienceContent.mdx";
 import { Button, Section } from "../../components";
 import { Analytics } from "../../services";
-
-const Content = React.lazy(() => importMDX("./ExperienceContent.mdx"));
 
 const Experience: React.FC = memo(() => {
   return (
@@ -17,9 +15,7 @@ const Experience: React.FC = memo(() => {
       <div className="container">
         <h1>Experience</h1>
 
-        <React.Suspense fallback={<div>Loading...</div>}>
-          <Content />
-        </React.Suspense>
+        <ExperienceContent />
 
         <div className="highlight-download-cv">
           <div className="wrapper">

@@ -1,5 +1,5 @@
 import React, { memo } from "react";
-import styled, { DefaultTheme } from "styled-components/macro";
+import styled, { DefaultTheme } from "styled-components";
 
 import { ThemeContext } from "../../context";
 
